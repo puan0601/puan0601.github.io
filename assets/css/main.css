@@ -10,4 +10,10 @@ h1, h2 {
 
 .project {
   float: left;
+  margin: 0px 10px;
+  background: red;
+}
+
+#contact {
+  clear: both;
 }
