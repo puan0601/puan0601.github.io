@@ -9,7 +9,8 @@ h1, h2 {
 }
 
 .project {
-  margin: 0px 10px;
+  margin: 0px auto;
+  padding: 0px 5px;
   background: tomato;
 }
 
@@ -21,13 +22,4 @@ h1, h2 {
   padding: 0;
   margin: 0;
   display: flex;
-}
-
-#fist {
-  font-size: 30px;
-}
-
-footer {
-  margin: 0 auto;
-  text-align: center;
 }
