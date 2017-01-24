@@ -22,3 +22,12 @@ h1, h2 {
   margin: 0;
   display: flex;
 }
+
+#fist {
+  font-size: 30px;
+}
+
+footer {
+  margin: 0 auto;
+  text-align: center;
+}
