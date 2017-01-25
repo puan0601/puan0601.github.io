@@ -32,7 +32,7 @@ h1, h2 {
 
 .rounded-img {
 	display: inline-block;
-	border: solid 1px #000;
+	border: solid 2px white;
 	overflow: hidden;
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
