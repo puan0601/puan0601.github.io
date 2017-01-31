@@ -1,30 +1,13 @@
-Project Name
+#Personal Portfolio Project
 
-TODO: Write a project description
+This is the alpha version of my portfolio project. The 'Projects' section is dynamically generated with *jquery*  from the *app.js* file and responsively-designed with *Bootstrap*.
 
-Installation
+The projects are currently placeholders, but the design and layout are all ready to go.
 
-TODO: Describe the installation process
+Future features/updates:
 
-Usage
+* Favicons
+* Updated navigation layout for mobile
+* Click event to reveal more information on project
+* Icons of languages/frameworks
 
-TODO: Write usage instructions
-
-Contributing
-
-Fork it!
-Create your feature branch: git checkout -b my-new-feature
-Commit your changes: git commit -am 'Add some feature'
-Push to the branch: git push origin my-new-feature
-Submit a pull request :D
-History
-
-TODO: Write history
-
-Credits
-
-TODO: Write credits
-
-License
-
-TODO: Write license
