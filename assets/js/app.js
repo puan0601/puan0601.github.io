@@ -21,7 +21,7 @@ var projectData = [{
 
 
 projectData.forEach(function(project,idx) {
-  var $name = $( '<div class="col-xs-12 col-sm-12 col-md-4 " id='+idx+'></div>');
+  var $name = $( '<div class="col-xs-12 col-sm-6 col-md-4 " id='+idx+'></div>');
   var $newName = $('<h3>'+project.name+'</h3>');
   var $newURL = $('<p><a href="http://'+project.url+'">'+project.url+'</a>');
   var $newIMG = $('<img class="img-fluid" alt="project placeholder" src="'+project.img+'"></img>');
