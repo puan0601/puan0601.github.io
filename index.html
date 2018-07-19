@@ -1,58 +1,198 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-  <title>Anton Pugach's Portfolio</title>
-  <!-- meta -->
-  <meta charset="utf-8" />
-  <meta name="description" content="Personal Site">
-  <meta name="author" content="GA Student">
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-  <!-- mobile -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- bootstrap CDN -->
-  <script
-    src="https://code.jquery.com/jquery-3.1.1.min.js"
-    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-    crossorigin="anonymous"></script>
-  <!-- styles -->
-  <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-  <!-- favicon -->
-  <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
-  <!-- scripts -->
-  <script type="text/javascript" src="assets/js/app.js"></script>
-</head>
-<body>
-  <div class='container-fluid'>
-    <h1>Anton Pugach</h1>
-    <img class="img-circle" src="./assets/imgs/headshotanton.jpg" alt="Anton Pugach pic">
-    <h2>My project repertoire</h2>
-    <div class="projects clearfix">
-    </div>
-    <h2>Get in touch</h2>
-    <ul class='list-group'>
-      <li class='list-group-item'>
-        <a href="https://www.linkedin.com/in/anton-pugach-a757569">
-          <div>
-            LinkedIn
-          </div></a>
-      </li>
-      <li class='list-group-item'>
-        <a href="https://github.com/puan0601">
-          <div>
-          GitHub
-          </div></a>
-      </li>
-      <li class='list-group-item'>
-        <a href=mailto:anton.pugach@gmail.com>
-          <div>
-          Email
-          </div></a>
-      </li>
-    </ul>
-  </div>
-</body>
-<footer>
-  &#169 2017. Designed with &#9994 in San Francisco.
+	<head>
+		<title>Anton Pugach | Full-Stack Developer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header">
+				<div class="inner">
+					<span class="image"><img id="headshot" src="images/headshotanton.jpg" alt="Anton Pugach" /></span>
+					<h1>Hi, I'm <strong>Anton</strong>, a Full-Stack web developer <br />
+					with a passion for the Front-End.</h1>
+					<p>Creating sustainable, <strong>scalable web applications</strong> excites me.<br /></p>
+					<p>I’m currently combining my enthusiasm and love for <strong>web development</strong> and the tech industry in San Francisco.<br /></p>
+					<ul class="actions">
+						<li><a  href="#three" class="button scrolly">Portfolio</a></li>
+						<li><a  href="#two" class="button scrolly">Skills</a></li>
+						<li><a  href="#footer" class="button scrolly">Contact</a></li>
+					</ul>
+				</div>
+			</section>
+			<!-- Three -->
+			<section id="three" class="main style1 special">
+				<div class="container">
+					<header class="major">
+						<h1>Portfolio of Work</h1>
+					</header>
+					<div class="row 150%">
+						<div class="4u 12u$(medium)">
+							<span class="image fit"><img src="images/goflyzone.png" alt="GoFlyZone" /></span>
+							<h2><a href="https://goflyzone.herokuapp.com">GoFlyZone</a></h2>
+							<ul>
+								<li>Real-time Single Page App for the best legal drone flying zones worldwide</li>
+								<li>Built with MongoDB, Express, Angular, Node, ES6, Webpack, Gulp</li>
+								<li>Incorporates Google Maps API with GeoJSON layers, OAuth, Geolocation</li>
+								<li>Implemented custom map markers based on user location</li>
+								<ul class="actions">
+									<li><a href="https://github.com/puan0601/goflyzone" class="button">GitHub</a></li>
+								</ul>
+							</div>
+							<div class="4u 12u$(medium)">
+								<span class="image fit"><img src="images/generallyassembled.png" alt="Generally Assembled" /></span>
+								<h2><a href="https://assembled.herokuapp.com">Generally Assembled</a></h2>
+								<ul>
+									<li>Intelligent search and storage of Web Development curriculumn content</li>
+									<li>Built with Ruby on Rails 5, PostreSQL, Bootstrap</li>
+									<li>Incorporates GitHub API and OAuth, ElasticSearch</li>
+									<li>Custom Rake Task handles daily data update/validate</li>
+									<ul class="actions">
+										<li><a href="https://github.com/puan0601/GenerallyAssembled" class="button">GitHub</a></li>
+									</ul>
+								</div>
+								<div class="4u$ 12u$(medium)">
+									<span class="image fit"><img src="images/vagabon.png" alt="Vagabon" /></span>
+									<h2><a href="https://vagabon.herokuapp.com">Vagabon</a></h2>
+									<ul>
+										<li>Visual Traveler Communities based on Location. Cloud Storing all assets</li>
+										<li>Built with Ruby on Rails 5, PostreSQL, Materialize</li>
+										<li>Incorporates OmniAuth, CarrierWave, Cloudinary API for cloud asset storage</li>
+										<li>Implements image upload with CarrierWave and hosting by Cloudinary</li>
+										<ul class="actions">
+											<li><a href="https://github.com/puan0601/vagabond" class="button">GitHub</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</section>
+		<!-- Two -->
+			<section id="two" class="main style2 special">
+				<div class="container">
+					<div class="row 100%">
+						<div class="12u$(medium)">
+							<header class="major">
+								<h1>Skills</h1>
+							</header>
+							<ul class="major-icons">
+								<li class="list-item">
+									<i class="devicon devicon-react-original"></i>
+									<div class='languages'>React</div>
+								</li>
+								<li class="list-item">
+									<i class="devicon devicon-webpack-plain"></i>
+									<div class='languages'>Webpack</div>
+								</li>
+								<li class="list-item">
+									<i class="devicon devicon-gulp-plain"></i>
+									<div class='languages'>Gulp</div>
+								</li>
+								<li class="list-item">
+									<i class="devicon devicon-javascript-plain"></i>
+									<div class='languages'>JavaScript</div>
+								</li>
+								<li class="list-item">
+									<i class="devicon devicon-jquery-plain"></i>
+									<div class='languages'>jQuery</div>
+								</li>
+								<li class="list-item">
+									<i class="devicon devicon-nodejs-plain"></i>
+									<div class='languages'>Node.js</div>
+								</li>
+								<li class="list-item">
+									<i class="devicon devicon-angularjs-plain"></i>
+									<div class='languages'>Angular</div>
+								</li>
+								<li class="list-item">
+									<i class="devicon devicon-ruby-plain"></i>
+									<div class='languages'>Ruby</div>
+								</li>
+								<li class="list-item">
+									<i class="devicon devicon-rails-plain"></i>
+									<div class='languages'>Rails</div>
+								</li>
+								<li class="list-item">
+									<i class="devicon devicon-python-plain"></i>
+									<div class='languages'>Python</div>
+								</li>
+								<li class="list-item">
+									<i class="devicon devicon-django-plain"></i>
+									<div class='languages'>Django</div>
+								</li>
+								<li class="list-item">
+									<i class="devicon devicon-bootstrap-plain"></i>
+									<div class='languages'>Bootstrap</div>
+								</li>
+								<li class="list-item">
+									<i class="devicon devicon-git-plain"></i>
+									<div class='languages'>Git</div>
+								</li>
+								<li class="list-item">
+									<i class="devicon devicon-github-plain"></i>
+									<div class='languages'>GitHub</div>
+								</li>
+								<li class="list-item">
+									<i class="devicon devicon-postgresql-plain"></i>
+									<div class='languages'>PostgreSQL</div>
+								</li>
+								<li class="list-item">
+									<i class="devicon devicon-mongodb-plain"></i>
+									<div class='languages'>MongoDB</div>
+								</li>
+								<li class="list-item">
+									<i class="devicon devicon-heroku-original"></i>
+									<div class='languages'>Heroku</div>
+								</li>
+								<li class="list-item">
+									<i class="devicon devicon-html5-plain"></i>
+									<div class='languages'>HTML5</div>
+								</li>
+								<li class="list-item">
+									<i class="devicon devicon-css3-plain"></i>
+									<div class='languages'>CSS3</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+		<!-- Footer -->
+			<section id="footer">
+				<h2>Contact</h2>
+				<ul class="icons">
+					<li><a href="https://github.com/puan0601" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="mailto:anton.pugach@gmail.com" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+					<li ><a href="https://docs.google.com/document/d/1f8CJEnV0oftIuFQ5U7ugTtcRYMmCUYxd06nVOUN19wA/edit?usp=sharing" class="icon fa-file-pdf-o" aria-hidden="true" target="_blank"></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&#169 2017. Designed with <span id="fist">&#9994</span> in San Francisco.</li>
+				</ul>
+			</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script>
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			  ga('create', 'UA-99692596-1', 'auto');
+			  ga('send', 'pageview');
+			</script>
+
+	</body>
 </html>
